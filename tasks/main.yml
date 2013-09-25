@@ -1,0 +1,8 @@
+---
+- name: java | Install java
+  apt: pkg=$item state=installed update-cache=$global_update_apt_cache
+  with_items:
+    - $java_jdk_package
+    - $java_jre_package
+  tags: 
+    - java

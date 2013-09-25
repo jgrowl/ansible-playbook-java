@@ -1,0 +1,8 @@
+global_user: root 
+global_use_sudo: False
+global_update_apt_cache: True
+
+java_jdk_package: openjdk-7-jdk
+java_jre_package: openjdk-7-jre
+
+
